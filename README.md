@@ -17,7 +17,8 @@ SAPUI5 Application connected to Flexibility Services. SmartVariantManagement com
 ### JSON Model: 
 Requires a JSON Model called FavoritePageVariants, for possible properties see example [FavoritePageVariants.json](webapp/model/FavoritePageVariants.json)
 Works with either key or name but you can also provide both. Keep in mind name is lcoalization dependant.
-Add it as JSON model in manifest:
+
+Add FavoritePageVariants as a JSON model in the manifest:
 ```
 "FavoritePageVariants": {
       "type": "sap.ui.model.json.JSONModel",
