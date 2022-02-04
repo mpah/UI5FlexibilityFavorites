@@ -2,7 +2,7 @@
 
 Set SAPUI5 Page Variants automatically without user input by key or name. Additional option preselect a page variant selected by default. Requires the SmartVariantManagement Control in view.
 
-###Before: 
+### Before: 
 ![image](https://user-images.githubusercontent.com/15245583/152555492-b1c95785-3130-45ee-ba90-0623de8eb927.png)
 
 
@@ -12,3 +12,7 @@ Set SAPUI5 Page Variants automatically without user input by key or name. Additi
 ### Requirements:
 SAPUI5 Application connected to Flexibility Services. SmartVariantManagement component in view.  
 
+## Example
+
+### JSON Model: 
+Requires a JSON Model called FavoritePageVariants, for possible properties see example [FavoritePageVariants.json](webapp/model/FavoritePageVariants.json)
