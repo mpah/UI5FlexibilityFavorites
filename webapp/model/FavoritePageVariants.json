@@ -1,0 +1,12 @@
+{
+	"Default Variant Key": "id_1234567891011_01_page",
+	"Default Variant Name": "Reduced Page View",
+	"FavoritesByName": {
+		"Reduced Page View": {},
+		"CSV Export": {},
+		"Customer Only": {}
+	},
+	"FavoritesByKey": {
+		"id_1234567891011_99_page": {}
+	}
+}
