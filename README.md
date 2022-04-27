@@ -1,6 +1,6 @@
 # UI5FlexibilityFavorites
 
-Set SAPUI5 Page Variants automatically without user input by key or name. Additional option preselect a page variant selected by default. Requires the SmartVariantManagement Control in view. 
+Set SAPUI5 / SAP Fiori Page Variants automatically without user input by key or name. Additional option preselect a page variant selected as default for all users. This can be done by name or key. Requires the SmartVariantManagement Control in view. 
 
 ### Before: 
 ![image](https://user-images.githubusercontent.com/15245583/152566041-75e8713e-ac47-4acb-812b-0272407ce206.png)
@@ -27,7 +27,7 @@ Add FavoritePageVariants as a JSON model in the manifest:
       "preload": true
 }
 ```
- View must have the SmartVariantManagement control
+ View must have the SmartVariantManagement control. SAP Fiori Elements apps have this if variant management is enabled (it is on default).
 
 ```
 <smartVariantManagement:SmartVariantManagement id="smartVariantManagement" persistencyKey="flexibilityexamplePageVariants"/>
@@ -37,7 +37,7 @@ Add FavoritePageVariants as a JSON model in the manifest:
 Include the FlexibilityFavorites js module in your controller
 ```
 sap.ui.define([
-	"zuzh/cm/banadministration/controller/FlexibilityFavorites",
+	"zmpah/flexibilityexample/controller/FlexibilityFavorites",
 ], function (FlexibilityFavorites) {
 	"use strict";
 	return BaseController.extend("zmpah.flexibilityexample.controller.App", {
